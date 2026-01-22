@@ -1,2 +1,2 @@
 # project-Euler
-https://projecteuler.net/ (Python implementations of problems)
+This Repo contains python implementation to get the solutions of problems in project euler.
