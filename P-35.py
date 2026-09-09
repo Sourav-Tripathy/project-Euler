@@ -56,7 +56,7 @@ def all_digit_odd(n):
 
 
 def find_circular_prime_in_range(n):
-    circular_primes=[2]
+    circular_primes=[2,5,11]
     h=[]
     for i in range(3,n+1,2):
         if i not in circular_primes:
@@ -73,7 +73,7 @@ def find_circular_prime_in_range(n):
             h.append(i)
             # print(i)
     
-    return len(circular_primes)
+    return len(circular_primes),circular_primes
 
 
 
