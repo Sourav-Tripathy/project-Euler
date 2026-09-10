@@ -31,7 +31,7 @@ def find_coeff():
                 s = n*n + a*n + b
                 if not check_prime(int(s)):
                     break
-                n = n+1     
+                n +=1     
             if n > max_primes:
                 max_primes = n
                 best_a, best_b = a, b

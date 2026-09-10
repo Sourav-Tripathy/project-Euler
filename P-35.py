@@ -48,7 +48,7 @@ def all_digit_odd(n):
     m=0
     for i in g:
         if i%2!=0:
-            m=m+1
+            m+=1
     if m==len(s):
         return True
     return False
@@ -65,7 +65,7 @@ def find_circular_prime_in_range(n):
                 m=0
                 for x in f:
                     if check_prime(x):
-                        m=m+1
+                        m+=1
                 if m==len(f):
                     for j in f:
                         circular_primes.append(j)

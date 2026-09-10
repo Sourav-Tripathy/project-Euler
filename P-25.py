@@ -7,7 +7,7 @@ def fib():
     count=2
     while True:
         f1,f2=f2,f1+f2
-        count=count+1
+        count+=1
         if len(str(f2))==1000:
             return count
 

@@ -10,9 +10,9 @@ def find_all_divisors_then_sum(n):
     for i in range (1,n):
         if n%i == 0:
             f.append(i)
-            i=i+1
+            i+=1
         else:
-            i=i+1
+            i+=1
     for j in f:
         sum_f=sum_f+j
     # print(f)
@@ -33,7 +33,7 @@ def find_amicable_pairs(a):
                 amicable_pairs.append([i,s])
                 pair_sums.append(h)
         else:
-            i=i+1
+            i+=1
     print(amicable_pairs)
     print(pair_sums)
     pair_total=0
